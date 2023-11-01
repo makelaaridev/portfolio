@@ -1,2 +1,1 @@
-# portfolio
-Web portfolio written with HTML, CSS and JavaScript
+# Web-Portfolio-Project
