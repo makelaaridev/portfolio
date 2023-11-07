@@ -1,5 +1,5 @@
 
-# Project Title
+# Portfolio
 
 I created this portfolio website as part of a school project to showcase my skills and interests in web development. I hope you enjoy browsing through my portfolio and feel free to contact me if you have any questions or feedback. Thank you for visiting!
 
