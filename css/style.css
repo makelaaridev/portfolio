@@ -55,7 +55,7 @@ a:hover {
     color: gray;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: rgb(65, 65, 65);
 }
 
 .logo {
@@ -368,7 +368,6 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
-  filter: blur(5px);
 }
 
 .project-title {
@@ -430,4 +429,23 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* FILTERS */
+
+.blur-filter {
+  filter: blur(5px);
+}
+
+/* ANIMATIONS */
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 500ms ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
 }

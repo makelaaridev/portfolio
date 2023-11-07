@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/mediaqueries.css">
 </head>
 <body>
-  <nav id="desktop-nav">
+  <nav id="desktop-nav" class="hidden">
     <div class="logo">makelaaridev</div>
     <div>
       <ul class="nav-links">
@@ -20,8 +20,8 @@
       </ul>
     </div>
   </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Ari Mäkelä</div>
+  <nav id="hamburger-nav" class="hidden">
+    <div class="logo">makelaaridev</div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
       <span></span>
@@ -36,7 +36,7 @@
       </div>
     </div>
   </nav>
-  <section id="profile">
+  <section id="profile" class="hidden">
     <div class="section_pic-container">
       <img 
       src="assets/profiilikuva.png"
@@ -48,7 +48,7 @@
       <h1 class="title">Ari Mäkelä</h1>
       <p class="section_text-p2">Software Developer Student</p>
       <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV
+        <button class="btn btn-color-2" onclick="window.open('assets/cv-ari-mäkelä.pdf')">Download CV
         </button>
         <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Me</button>
       </div>
@@ -68,7 +68,7 @@
       </div>
     </div>
   </section>
-  <section id="about">
+  <section id="about" class="hidden">
     <p class="section_text-p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
@@ -88,7 +88,7 @@
             class="icon"
             >
             <h3>Education</h3>
-            <p>Hyria Software Developer<br>Full Stack Open</p>
+            <p>Hyria Software Developer</p>
           </div>
           <div class="details-container">
             <img 
@@ -101,7 +101,7 @@
           </div>
         </div>
         <div class="text-container">
-          <p>Well hello there! I'm Ari. An 25 years old software developper student from Turku, Finland! 
+          <p>Hello there! I'm Ari. An 25 years old software developper student from Turku, Finland! 
             I'm part of Hyria's web education group and i'm going to graduate in late 2025.
             I'm currently looking for a on-the-job training in the Turku area. If you have any 
             questions or want to get in touch, feel free to contact me!
@@ -116,7 +116,7 @@
     onclick="location.href='./#experience'"
     >
   </section>
-  <section id="experience">
+  <section id="experience" class="hidden">
     <p class="section_text-p1"> Explore My</p>
     <h1 class="title">Experiences</h1>
     <div class="experience-details-container">
@@ -151,37 +151,7 @@
               >
               <div>
                 <h3>JavaScript</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="assets/checkmark.png" 
-              alt="Experience icon"
-              class="icon"
-              >
-              <div>
-                <h3>Python</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="assets/checkmark.png" 
-              alt="Experience icon"
-              class="icon"
-              >
-              <div>
-                <h3>React.js</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="assets/checkmark.png" 
-              alt="Experience icon"
-              class="icon"
-              >
-              <div>
-                <h3>Tailwind.css</h3>
-                <p>Intermediate</p>
+                <p>Beginner</p>
               </div>
             </article>
           </div>
@@ -195,28 +165,8 @@
               class="icon"
               >
               <div>
-                <h3>PostgreSQL</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img src="assets/checkmark.png" 
-              alt="Experience icon"
-              class="icon"
-              >
-              <div>
                 <h3>Node.js</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="assets/checkmark.png" 
-              alt="Experience icon"
-              class="icon"
-              >
-              <div>
-                <h3>Express.js</h3>
-                <p>Intermediate</p>
+                <p>Beginner</p>
               </div>
             </article>
             <article>
@@ -250,7 +200,7 @@
     onclick="location.href='./#projects'"
     >
   </section>
-  <section id="projects">
+  <section id="projects" class="hidden">
     <p class="section_text-p1">Browse My Latest</p>
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
@@ -263,10 +213,10 @@
             class="project-img"
             >
           </div>
-          <h2 class="experience-sub-title project-title">Project One</h2>
+          <h2 class="experience-sub-title project-title">Personal Portfolio</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/makelaaridev'">GitHub</button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/makelaaridev'">Live Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/makelaaridev/portfolio'">GitHub</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://makelaaridev.netlify.app/'">Live Demo</button>
           </div>
         </div>
         <div class="details-container color-container">
@@ -274,10 +224,10 @@
             <img 
             src="assets/project2.png" 
             alt="project 2"
-            class="project-img"
+            class="project-img blur-filter"
             >
           </div>
-          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <h2 class="experience-sub-title project-title">Placeholder</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/makelaaridev'">GitHub</button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/makelaaridev'">Live Demo</button>
@@ -288,10 +238,10 @@
             <img 
             src="assets/project3.png" 
             alt="project 3"
-            class="project-img"
+            class="project-img blur-filter"
             >
           </div>
-          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <h2 class="experience-sub-title project-title">Placeholder</h2>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/makelaaridev'">GitHub</button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/makelaaridev'">Live Demo</button>
@@ -306,7 +256,7 @@
     onclick="location.href='./#contact'"
     >
   </section>
-  <section id="contact">
+  <section id="contact" class="hidden">
     <p class="section_text-p1">Get in Touch</p>
     <h1 class="title">With Me</h1>
     <div class="contact-info-upper-container">
@@ -330,7 +280,7 @@
       </div>
     </div>
   </section>
-  <footer>
+  <footer class="hidden">
     <nav>
       <div class="nav-links-container">
         <ul class="nav-links">
