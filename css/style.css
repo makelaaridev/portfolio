@@ -386,7 +386,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 35vh;
 }
 
 .social-info-upper-container {
@@ -410,6 +410,7 @@ article .icon {
 
 .social-info-container p {
   font-size: larger;
+  padding: 0.5rem;
 }
 
 .social-icon {
@@ -420,11 +421,7 @@ article .icon {
   height: 2.5rem;
 }
 
-.instagram-icon {
-  height: 2.5rem;
-}
-
-.discord-icon {
+.gitgub-icon {
   height: 2.5rem;
 }
 
@@ -434,7 +431,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 35vh;
 }
 
 .contact-info-upper-container {
@@ -491,13 +488,3 @@ footer p {
 
 /* ANIMATIONS */
 
-.hidden {
-  opacity: 0;
-  filter: blur(5px);
-  transition: all 500ms ease-in-out;
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0px);
-}
