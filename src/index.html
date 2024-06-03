@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>makelaaridev</title>
   <link rel="stylesheet" href="css/style.css">
@@ -30,11 +30,13 @@
       <span></span>
       </div>
       <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#socials" onclick="toggleMenu()">Socials</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <ul>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#socials" onclick="toggleMenu()">Socials</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -97,12 +99,6 @@
         </div>
       </div>
     </div>
-    <img 
-    src="assets/scroll_down.svg"
-    alt="Arrow icon" 
-    class="icon arrow"
-    onclick="location.href='./#experience'"
-    >
   </section>
   <section id="experience">
     <p class="section_text-p1"> Explore My</p>
@@ -154,7 +150,7 @@
               >
               <div>
                 <h3>Node.js</h3>
-                <p>Beginner</p>
+                <p>Intermediate</p>
               </div>
             </article>
             <article>
@@ -181,12 +177,6 @@
         </div>
       </div>
     </div>
-    <img 
-    src="assets/scroll_down.svg"
-    alt="Arrow icon" 
-    class="icon arrow"
-    onclick="location.href='./#projects'"
-    >
   </section>
   <section id="projects">
     <p class="section_text-p1">Browse My Latest</p>
@@ -237,12 +227,6 @@
         </div>
       </div>
     </div>
-    <img 
-    src="assets/scroll_down.svg"
-    alt="Arrow icon" 
-    class="icon arrow"
-    onclick="location.href='./#socials'"
-    >
   </section>
   <section id="socials">
     <p class="section_text-p1">Take a Look at</p>
@@ -302,6 +286,7 @@
       </div>
     </nav>
     <p>Copyright &#169; 2023 Ari Mäkelä. All Rights Reserved.</p>
+  </footer>
   <script src="js/script.js"></script>
 </body>
 </html>
