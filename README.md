@@ -2,11 +2,12 @@
 # Portfolio
 
 I created this portfolio website as part of a school project to showcase my skills and interests in web development. I hope you enjoy browsing through my portfolio and feel free to contact me if you have any questions or feedback. Thank you for visiting!
+Website is hosted via vercel.com
 
 
 ## Link
 
-https://makelaaridev.netlify.app/
+https://www.makelaari.dev/
 
 
 ### Made with:
